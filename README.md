@@ -1,4 +1,4 @@
-# Group YY - {Short snappy Title of your project}
+# Group 41 - {2022 World Cup Data Analysis}
 
 - Your title can change over time.
 
@@ -8,17 +8,17 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Describe your topic/interest in about 150-200 words
 
-{Add your stuff here}
+{We are interested in how data influences team and player performance throughout the World Cup 2022 tournament.}
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+{It contains metrics and figures gathered from the World Cup 2022 tournament}
 
 ## Team Members
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+- Person 1: Luis Wen Luo
+- Person 2: Runmeng (Ada) Qin
+- Person 3: Tony Ngo
 
 ## Images
 
@@ -28,7 +28,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## References
 
-{Add your stuff here}
+{(https://projects.fivethirtyeight.com/2022-world-cup-predictions/)}
 
 
 
