@@ -28,7 +28,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## References
 
-{(https://projects.fivethirtyeight.com/2022-world-cup-predictions/)}
+https://projects.fivethirtyeight.com/2022-world-cup-predictions/
 
 
 
