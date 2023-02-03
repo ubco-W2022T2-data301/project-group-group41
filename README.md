@@ -18,7 +18,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 - Person 1: Luis Wen Luo
 - Person 2: Runmeng (Ada) Qin
-- Person 3: Tony Ngo
+- Tony Ngo: Hello, I am a 4th year management student and I enjoy sports and technology!
 
 ## Images
 
