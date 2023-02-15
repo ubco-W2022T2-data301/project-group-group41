@@ -8,16 +8,6 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Describe your topic/interest in about 150-200 words
 
-The dataset used in this article was provided by FiveThirtyEight, a data journalism organization that specializes in sports and politics.
-
-The data in this dataset is a collection of predictions for the 2022 World Cup soccer tournament, including the likelihood of each team winning each match, making it to the quarterfinals, semifinals, and finals, and ultimately winning the tournament.
-
-The data was collected in the lead up to the tournament, with the aim of providing insights and predictions for the tournament. The purpose of the dataset is to engage readers and provide a source of information for fans of soccer and the World Cup, as well as to showcase FiveThirtyEight's expertise in data analysis and prediction.
-
-The data was collected using a combination of methods, including statistical modeling, analysis of team and player performance data, and expert opinions. The predictions were updated leading up to and during the tournament, reflecting the evolving state of the competition.
-
-## Describe your dataset in about 150-200 words
-
 We are interested in this dataset because it relates to a high-profile event in the world of soccer, and provides an opportunity to explore the use of data and analytics in predicting the outcome of a sporting competition.
 
 The goal of this project would be to analyze the predictions made by FiveThirtyEight and evaluate their accuracy. This could involve comparing the predictions to the actual outcome of the tournament, and exploring any factors that may have affected the accuracy of the predictions.
@@ -26,6 +16,15 @@ Additionally, it would be interesting to explore the methods used by FiveThirtyE
 
 Building a user-facing dashboard with this dataset could be a valuable tool for soccer fans, providing insights into the likelihood of different teams winning the tournament, and allowing users to explore the predictions in more detail. The dashboard could be interactive, allowing users to see how the predictions evolved over the course of the tournament, and how the actual results compared to the initial predictions.
 
+## Describe your dataset in about 150-200 words
+
+The dataset used in this article was provided by FiveThirtyEight, a data journalism organization that specializes in sports and politics.
+
+The data in this dataset is a collection of predictions for the 2022 World Cup soccer tournament, including the likelihood of each team winning each match, making it to the quarterfinals, semifinals, and finals, and ultimately winning the tournament.
+
+The data was collected in the lead up to the tournament, with the aim of providing insights and predictions for the tournament. The purpose of the dataset is to engage readers and provide a source of information for fans of soccer and the World Cup, as well as to showcase FiveThirtyEight's expertise in data analysis and prediction.
+
+The data was collected using a combination of methods, including statistical modeling, analysis of team and player performance data, and expert opinions. The predictions were updated leading up to and during the tournament, reflecting the evolving state of the competition.
 ## Team Members
 
 - Person 1: Luis Wen Luo
