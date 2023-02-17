@@ -40,6 +40,8 @@ The data was collected using a combination of methods, including statistical mod
 ## References
 
 https://projects.fivethirtyeight.com/2022-world-cup-predictions/
+https://projects.fivethirtyeight.com/soccer-api/international/2022/wc_matches.csv
+https://projects.fivethirtyeight.com/soccer-api/international/2022/wc_forecasts.csv
 
 
 
