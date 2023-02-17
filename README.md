@@ -27,7 +27,7 @@ The data was collected in the lead up to the tournament, with the aim of providi
 The data was collected using a combination of methods, including statistical modeling, analysis of team and player performance data, and expert opinions. The predictions were updated leading up to and during the tournament, reflecting the evolving state of the competition.
 ## Team Members
 
-- Person 1: Luis Wen Luo
+- Luis Wen Luo: I like sports, videogames and chess.
 - Person 2: Runmeng (Ada) Qin
 - Tony Ngo: I am interested in finance, sports, and technology!
 
