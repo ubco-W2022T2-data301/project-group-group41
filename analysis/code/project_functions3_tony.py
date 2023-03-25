@@ -25,4 +25,3 @@ def load_and_process_wc_data(match_url, forecast_url):
 
     return final_df
 
-final_df
