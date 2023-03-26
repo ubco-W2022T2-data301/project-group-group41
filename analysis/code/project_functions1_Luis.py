@@ -11,8 +11,10 @@ def load_and_process_matches(url_or_path_to_csv_file):
 team2_offense = [1.95077, 1.62507, 1.84609, 1.95825, 2.16748, 1.95504, 2.59723, 2.18629, 3.122, 2.58007, 2.78069, 2.86212, 2.20264, 1.74313, 1.74313, 2.96765]
 match_winner = ['team1', 'team1', 'team1', 'team1', 'team2', 'team1', 'team1', 'team1', 'team1', 'team2', 'team1', 'team2', 'team1', 'team1', 'team1', 'team1']
 offensive_difference = [0.59347, 0.95113, 0.95828, 0.69908, -0.12674, 1.21544, -0.79425, 0.70529, -0.95076, -0.05296, -0.98833, -0.14648, 0.49631, 1.15235, 0.45951, -0.13155]
+stage = ['Round of 16','Round of 16','Round of 16','Round of 16','Round of 16','Round of 16','Round of 16','Round of 16','Quarter-final','Quarter-final','Quarter-final','Quarter-final','Semi-final','Semi-final','Third place decider','Final']
+
     
-    df2 = ( df1.assign(home_offense=team1_offense, away_offense=team2_offense, winner=match_winner,offensive_diff=offensive_difference).drop(axis=1, columns=['date', 'league_id', 'league', 'prob1', 'prob2', 'probtie', 'proj_score1', 'proj_score2'])
+    df2 = ( df1.assign(home_offense=team1_offense, away_offense=team2_offense, winner=match_winner,offensive_diff=offensive_difference,stage=stage).drop(axis=1, columns=['date', 'league_id', 'league', 'prob1', 'prob2', 'probtie', 'proj_score1', 'proj_score2'])
           )
     
     return df2
