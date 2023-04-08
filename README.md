@@ -1,6 +1,5 @@
 # Group 41 - {2022 World Cup Data Analysis}
 
-- Your title can change over time.
 
 ## Milestones
 
@@ -28,14 +27,14 @@ The data was collected using a combination of methods, including statistical mod
 ## Team Members
 
 - Luis Wen Luo: I like sports, videogames and chess.
-- Person 2: Runmeng (Ada) Qin
+- Runmeng (Ada) Qin
 - Tony Ngo: I am interested in finance, sports, and technology!
 
 ## Images
 
 {You should use this area to add a screenshot of an interesting plot, or of your dashboard}
 
-<img src ="images/test.png" width="100px">
+<img src ="images/intro.jpg" width="700px">
 
 ## References
 
