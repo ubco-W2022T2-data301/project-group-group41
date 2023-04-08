@@ -13,25 +13,26 @@ Runmeng Qin (Analysis 2)
 Tony Ngo (Analysis 3)
 
 
- - the highlights section is just a short summary, below we will explain our notebooks in more detail with graphs and data 
+ 
  
  
 ---
 
  
-Exploratory Data Analysis Highlights for Analysis 1:
+Exploratory Data Analysis Highlights for Analysis 1:\
 
 
 
 
 
-Exploratory Data Analysis Highlights for Analysis 2:
+Exploratory Data Analysis Highlights for Analysis 2:\
 
 
 
 
 
-Exploratory Data Analysis Highlights for Analysis 3:
+Exploratory Data Analysis Highlights for Analysis 3:\
+
 I analyzed a dataset of soccer matches and forecasts for the World Cup 2022 using Python and the pandas library. The dataset includes information about each match, including the teams playing, their Soccer Power Index (SPI), and expected goals (xG) for each team, as well as forecasts for the tournament, including each team's SPI, expected goals, and their chances of advancing to the different rounds of the tournament.
 
 First, I cleaned and filtered the dataset to include only the relevant columns and rows for my analysis. I also checked for missing or invalid values and handled them accordingly.
@@ -42,18 +43,18 @@ From my analysis, I found that there is a moderate positive correlation between 
 
 Additionally, I found that the forecasts for the tournament indicate that certain teams are more likely to advance to the later rounds of the tournament than others, based on their SPI and xG values, as well as their performance in previous matches.
 
-Overall, my exploratory data analysis provides valuable insights into the World Cup 2022 dataset, and lays the groundwork for further analysis and modeling to make predictions and forecasts for the tournament.
+Overall, my exploratory data analysis provides valuable insights into the World Cup 2022 dataset, and lays the groundwork for further analysis and modeling to make predictions and forecasts for the tournament.\
+
+---
+
+Luis' topic title here, have a link to your notebook\
 
 
 
-Luis' topic title here, have a link to your notebook
 
 
 
-
-
-
-Ada's topic title here, have a link to your notebook
+Ada's topic title here, have a link to your notebook\
 
 
 
@@ -153,27 +154,29 @@ Therefore, the conclusion of the data analysis is that there is a slight associa
 
 
 
+---
 
 
+**Conclusion**\
 
-**Conclusion**
+![conclusion](images/conclusion.jpg)
 
-Analysis 1:
-
-
-Analysis 2:
+Analysis 1:\
 
 
-Analysis 3:
+Analysis 2:\
+
+
+Analysis 3:\
 After analyzing the data and creating visualizations in Tableau, it is clear that xG and actual goals have a strong relationship for both winning and losing teams. However, winning teams tend to have a higher xG compared to losing teams, indicating that teams with higher xG are more likely to win matches.
 
 Regarding the correlation between a team's SPI and their xG, there does seem to be a positive correlation between the two variables. Higher SPI teams tend to have higher xG, suggesting that a team's overall quality and skill level can impact their ability to create high-quality scoring opportunities.
 
-Overall, these findings can provide valuable insights for coaches and teams when developing their strategies and tactics. By focusing on creating high xG opportunities and improving their SPI, teams can increase their chances of winning matches and achieving success in international competitions like the World Cup.
+Overall, these findings can provide valuable insights for coaches and teams when developing their strategies and tactics. By focusing on creating high xG opportunities and improving their SPI, teams can increase their chances of winning matches and achieving success in international competitions like the World Cup.\
 
 
 
-group conclusion:
+group conclusion:\
 
 In conclusion, our data analysis of the 2022 World Cup provides some key insights into the relationship between a team's SPI, xG, and their goal-scoring ability. Our findings suggest that there is a moderate positive correlation between a team's overall strength (as measured by SPI) and their ability to generate high-quality scoring opportunities (as measured by xG). We also found that xG is a better predictor of a team's goal-scoring performance than actual goals scored.
 

@@ -32,7 +32,7 @@ The data was collected using a combination of methods, including statistical mod
 
 ## Images
 
-{You should use this area to add a screenshot of an interesting plot, or of your dashboard}
+
 
 <img src ="images/intro.jpg" width="700px">
 
