@@ -1,10 +1,10 @@
-**World Cup Data Analysis**
+<h1>**2022 World Cup Tournament Data Analysis**</h1>
 
 <img src ="images/intro.jpg" width="700px">
 
 ---
 
-**Team Members**
+<h2>**Team Members**</h2>
 
 Luis Wen Luo (Analysis 1)
 
@@ -17,21 +17,25 @@ Tony Ngo (Analysis 3)
  
  
 ---
+<h2>Analysis Highlights</h2><br>  
 
  
-Exploratory Data Analysis Highlights for Analysis 1:\
+**Exploratory Data Analysis Highlights for Analysis 1:**<br>  
 
 
 
 
 
-Exploratory Data Analysis Highlights for Analysis 2:\
+
+**Exploratory Data Analysis Highlights for Analysis 2:**<br>  
 
 
 
 
 
-Exploratory Data Analysis Highlights for Analysis 3:\
+
+**Exploratory Data Analysis Highlights for Analysis 3:**<br>  
+
 
 I analyzed a dataset of soccer matches and forecasts for the World Cup 2022 using Python and the pandas library. The dataset includes information about each match, including the teams playing, their Soccer Power Index (SPI), and expected goals (xG) for each team, as well as forecasts for the tournament, including each team's SPI, expected goals, and their chances of advancing to the different rounds of the tournament.
 
@@ -43,27 +47,31 @@ From my analysis, I found that there is a moderate positive correlation between 
 
 Additionally, I found that the forecasts for the tournament indicate that certain teams are more likely to advance to the later rounds of the tournament than others, based on their SPI and xG values, as well as their performance in previous matches.
 
-Overall, my exploratory data analysis provides valuable insights into the World Cup 2022 dataset, and lays the groundwork for further analysis and modeling to make predictions and forecasts for the tournament.\
+Overall, my exploratory data analysis provides valuable insights into the World Cup 2022 dataset, and lays the groundwork for further analysis and modeling to make predictions and forecasts for the tournament.<br>  
+
 
 ---
+<h2>Group Analysis Topics</h2>
 
-Luis' topic title here, have a link to your notebook\
-
-
-
-
-
-
-Ada's topic title here, have a link to your notebook\
+**Analysis 1 - Luis' topic title here, have a link to your notebook**<br>  
 
 
 
 
 
-Tony: "Beyond the Scoreboard: Analyzing the Relationship between Teams' SPI and xG in the World Cup 2022"
+
+
+**Analysis 2 - Ada's topic title here, have a link to your notebook**<br>  
+
+
+
+
+
+
+**Analysis 3 - Tony: "Beyond the Scoreboard: Analyzing the Relationship between Teams' SPI and xG in the World Cup 2022"** 
 #### [Feel free to check out my Jupyter Notebook!](https://github.com/ubco-W2022T2-data301/project-group-group41/blob/main/analysis/analysis3_Tony_Ngo.ipynb)
 
-Research Question 1: How does the relationship between xG and actual goals differ for winning and losing teams?
+**Research Question 1: How does the relationship between xG and actual goals differ for winning and losing teams?**
 
 To answer this question, we calculated the difference between the actual goals scored by a team and their expected goals (xG) for each match in the World Cup 2022 dataset. We then grouped the data by the result (win or loss) and calculated the average difference in goals for each group.
 
@@ -73,19 +81,22 @@ We also found that the correlation between xG and actual goals was stronger for 
 
 Overall, our analysis suggests that there is a difference in the relationship between xG and actual goals for winning and losing teams. Winning teams tend to be more efficient at converting their chances into goals, while losing teams struggle to capitalize on their scoring opportunities.
 
-Analyzing xG vs actual goals for winning and losing teams: We can plot the relationship between xG and actual goals scored for winning and losing teams separately to see if there are any noticeable differences. We can use a scatter plot with xG on the x-axis and actual goals scored on the y-axis. We can color-code the points based on whether the team won or lost.
+Analyzing xG vs actual goals for winning and losing teams: We can plot the relationship between xG and actual goals scored for winning and losing teams separately to see if there are any noticeable differences. We can use a scatter plot with xG on the x-axis and actual goals scored on the y-axis. We can color-code the points based on whether the team won or lost.<br>  
 
 
+
+<h4>Figure 1:</h4>
 ![goals scored](images/analysis3_image1.jpg)
 
 
 
 From the histograms, we can see that winning teams tend to have a higher concentration of xG around 1-2, while losing teams have a wider spread of xG values. Additionally, winning teams tend to have a higher concentration of actual goals scored around 1-3, while losing teams have a wider spread of goals scored.
 
-We can also look at the distribution of xG and actual goals scored across all matches in the dataset. We can use boxplots to compare the distributions and see if there are any outliers or significant differences between winning and losing teams.
+We can also look at the distribution of xG and actual goals scored across all matches in the dataset. We can use boxplots to compare the distributions and see if there are any outliers or significant differences between winning and losing teams.<br>  
 
 
 
+<h4>Figure 2:</h4>
 ![goals scored](images/analysis3_image2.jpg)
 
 
@@ -94,14 +105,15 @@ We can also look at the distribution of xG and actual goals scored across all ma
 
 Four boxplots in a 2x2 grid produced here, with xG and actual goals scored for both home and away winning teams. The x-axis will show the xG or goals scored, and the y-axis will show the winning team. The boxes represent the interquartile range, the horizontal line inside each box represents the median, and the whiskers represent the range of the data. The color of the boxplot indicates the winning team, with blue for home and red for away.
 
-The boxplots confirm our earlier findings that winning teams tend to outperform their xG more often than losing teams. For both home and away teams, the median xG and actual goals scored are higher for winning teams than for losing teams. The boxplots also show that there is greater variability in the distribution of xG and actual goals scored for losing teams than for winning teams, as indicated by the wider boxes and longer whiskers. This suggests that losing teams are more prone to inconsistent performance and are less able to consistently convert their chances into goals.
+The boxplots confirm our earlier findings that winning teams tend to outperform their xG more often than losing teams. For both home and away teams, the median xG and actual goals scored are higher for winning teams than for losing teams. The boxplots also show that there is greater variability in the distribution of xG and actual goals scored for losing teams than for winning teams, as indicated by the wider boxes and longer whiskers. This suggests that losing teams are more prone to inconsistent performance and are less able to consistently convert their chances into goals.<br>  
 
 
 
+<h4>Figure 3:</h4>
 ![goals scored](images/analysis3_image3.jpg)
 
 
-Key Findings
+**Key Findings**
 
 Based on our analysis, it is clear that there is a notable difference between the relationship between xG and actual goals for winning and losing teams. Our findings suggest that winning teams tend to outperform their expected goals (xG) more often than losing teams, indicating that they are more efficient at converting their chances into goals. This could be attributed to a variety of factors, including superior finishing ability, more effective team coordination, and greater tactical acumen.
 
@@ -113,25 +125,40 @@ On the other hand, losing teams tend to score fewer goals than their xG, particu
 
 Overall, our analysis provides valuable insights into the relationship between xG and actual goals for winning and losing teams in the World Cup 2022 dataset. By identifying the differences between these two groups, we can gain a better understanding of the factors that contribute to goal-scoring performance and develop more effective strategies for improving it.
 
+**Research Question 2: Is there a correlation between a team's SPI (Soccer Power Index) and their xG?**
 
+For the second research question, "Is there a correlation between a team's SPI (Soccer Power Index) and their xG?", we will use data analysis techniques to explore the relationship between these two variables.
 
+To tackle this problem, we will first gather the necessary data from reliable sources. The datasets we will use are the wc_matches.csv and wc_forecasts.csv provided by FiveThirtyEight, which contain information about international soccer matches and forecasts for the 2022 World Cup.
+
+We will then clean and preprocess the data, which will involve tasks such as removing irrelevant columns, dealing with missing data, and merging the two datasets. Once the data is cleaned, we will use visualization techniques such as scatterplots and histograms to explore the distribution of the data and identify any patterns or outliers.
+
+Next, we will calculate the correlation coefficient between SPI and xG to quantify the strength of the relationship between the two variables. We will also create binned scatterplots to explore whether the correlation differs across different ranges of SPI values.
+
+Finally, we will draw conclusions from our analysis and discuss any limitations or further directions for research. Overall, our approach will involve a combination of data cleaning, visualization, and statistical analysis to answer the research question about the relationship between SPI and xG.
+
+Analyzing the correlation between a team's SPI and their xG: We can use a scatter plot to visualize the relationship between a team's SPI and their xG. We can use the jointplot function from Seaborn to create a scatter plot with a linear regression line and a distribution plot for each variable.<br>  
+
+<h4>Figure 4:</h4>
 ![goals scored](images/analysis3_image4.jpg)
 
 
 
-Looking at the correlation between SPI and xG for each team individually: While the overall correlation between SPI and xG is moderate, it's possible that the strength of the relationship varies by team. To explore this possibility, we can create a scatter plot for each team showing their SPI and xG for each match they played in the World Cup 2022 dataset.
+Looking at the correlation between SPI and xG for each team individually: While the overall correlation between SPI and xG is moderate, it's possible that the strength of the relationship varies by team. To explore this possibility, we can create a scatter plot for each team showing their SPI and xG for each match they played in the World Cup 2022 dataset.<br>  
 
 
 
+<h4>Figure 5:</h4>
 ![goals scored](images/analysis3_image5.jpg)
 
 
 The violin plot shows that the distribution of SPI values is more spread out than the distribution of xG values. This suggests that while SPI may have a stronger impact on a team's overall strength, xG is a more precise indicator of a team's ability to create scoring opportunities.
 
-To further analyze the relationship between a team's SPI and their xG, we can also calculate the mean xG for different SPI ranges:
+To further analyze the relationship between a team's SPI and their xG, we can also calculate the mean xG for different SPI ranges:<br>  
 
 
 
+<h4>Figure 6:</h4>
 ![goals scored](images/analysis3_image6.jpg)
 
 
@@ -144,7 +171,7 @@ A correlation coefficient of 0.13 indicates a weak positive correlation between 
 
 This key finding can be interpreted as suggesting that a team's overall strength, as measured by SPI, does have some influence on their ability to generate high-quality scoring opportunities, as measured by xG. However, there are likely other factors that also play a role in determining a team's xG, such as their tactics, individual player ability, and opponent strength. Additionally, it's possible that the weak correlation in this case could be due to noise in the data or limitations of the SPI and xG metrics themselves. Therefore, it's important to interpret this finding in the context of other analyses and data available.
 
-Key Findings
+**Key Findings**
 
 Based on the analysis of the provided dataset, there is a weak positive correlation between a team's SPI and their xG. The correlation coefficient was found to be 0.13, which suggests that there is a small tendency for higher SPI values to be associated with higher xG values, but the relationship is not very strong.
 
@@ -157,17 +184,22 @@ Therefore, the conclusion of the data analysis is that there is a slight associa
 ---
 
 
-**Conclusion**\
+<h2>**Conclusion**</h2><br>  
+
+
 
 ![conclusion](images/conclusion.jpg)
 
-Analysis 1:\
+Analysis 1:<br>  
 
 
-Analysis 2:\
+
+Analysis 2:<br>  
 
 
-Analysis 3:\
+
+Analysis 3:<br>  
+
 After analyzing the data and creating visualizations in Tableau, it is clear that xG and actual goals have a strong relationship for both winning and losing teams. However, winning teams tend to have a higher xG compared to losing teams, indicating that teams with higher xG are more likely to win matches.
 
 Regarding the correlation between a team's SPI and their xG, there does seem to be a positive correlation between the two variables. Higher SPI teams tend to have higher xG, suggesting that a team's overall quality and skill level can impact their ability to create high-quality scoring opportunities.
@@ -176,7 +208,8 @@ Overall, these findings can provide valuable insights for coaches and teams when
 
 
 
-group conclusion:\
+Group conclusion:<br>  
+
 
 In conclusion, our data analysis of the 2022 World Cup provides some key insights into the relationship between a team's SPI, xG, and their goal-scoring ability. Our findings suggest that there is a moderate positive correlation between a team's overall strength (as measured by SPI) and their ability to generate high-quality scoring opportunities (as measured by xG). We also found that xG is a better predictor of a team's goal-scoring performance than actual goals scored.
 

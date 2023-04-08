@@ -1,4 +1,4 @@
-# Group 41 - {2022 World Cup Data Analysis}
+# Group 41 - 2022 World Cup Data Analysis
 
 
 ## Milestones
