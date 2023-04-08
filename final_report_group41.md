@@ -115,6 +115,7 @@ The boxplots confirm our earlier findings that winning teams tend to outperform 
 
 
 <h4>Figure 3:</h4>
+
 ![goals scored](images/analysis3_image3.jpg)
 
 
