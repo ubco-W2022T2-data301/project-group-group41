@@ -1,4 +1,4 @@
-<h1>**2022 World Cup Tournament Data Analysis**</h1>
+<h1>2022 World Cup Tournament Data Analysis</h1>
 
 <img src ="images/intro.jpg" width="700px">
 
@@ -86,7 +86,9 @@ Analyzing xG vs actual goals for winning and losing teams: We can plot the relat
 
 
 <h4>Figure 1:</h4>
+
 ![goals scored](images/analysis3_image1.jpg)
+
 
 
 
@@ -97,7 +99,10 @@ We can also look at the distribution of xG and actual goals scored across all ma
 
 
 <h4>Figure 2:</h4>
+
 ![goals scored](images/analysis3_image2.jpg)
+
+
 
 
 
@@ -111,6 +116,8 @@ The boxplots confirm our earlier findings that winning teams tend to outperform 
 
 <h4>Figure 3:</h4>
 ![goals scored](images/analysis3_image3.jpg)
+
+
 
 
 **Key Findings**
@@ -140,7 +147,10 @@ Finally, we will draw conclusions from our analysis and discuss any limitations 
 Analyzing the correlation between a team's SPI and their xG: We can use a scatter plot to visualize the relationship between a team's SPI and their xG. We can use the jointplot function from Seaborn to create a scatter plot with a linear regression line and a distribution plot for each variable.<br>  
 
 <h4>Figure 4:</h4>
+
 ![goals scored](images/analysis3_image4.jpg)
+
+
 
 
 
@@ -149,7 +159,11 @@ Looking at the correlation between SPI and xG for each team individually: While 
 
 
 <h4>Figure 5:</h4>
+
 ![goals scored](images/analysis3_image5.jpg)
+
+
+
 
 
 The violin plot shows that the distribution of SPI values is more spread out than the distribution of xG values. This suggests that while SPI may have a stronger impact on a team's overall strength, xG is a more precise indicator of a team's ability to create scoring opportunities.
@@ -159,7 +173,9 @@ To further analyze the relationship between a team's SPI and their xG, we can al
 
 
 <h4>Figure 6:</h4>
+
 ![goals scored](images/analysis3_image6.jpg)
+
 
 
 
