@@ -2,9 +2,11 @@
 
 <img src ="images/intro.jpg" width="700px">
 
+Source: https://people.com/sports/lionel-messis-instagram-picture-showing-him-holding-world-cup-trophy-is-most-liked-post-ever/
+
 ---
 
-<h2>**Team Members**</h2>
+<h2>Team Members</h2>
 
 Luis Wen Luo (Analysis 1)
 
@@ -201,11 +203,13 @@ Therefore, the conclusion of the data analysis is that there is a slight associa
 ---
 
 
-<h2>**Conclusion**</h2><br>  
+<h2>Conclusion</h2><br>  
 
 
 
 ![conclusion](images/conclusion.jpg)
+
+Source: https://projects.fivethirtyeight.com/2022-world-cup-predictions/
 
 Analysis 1:<br>  
 
