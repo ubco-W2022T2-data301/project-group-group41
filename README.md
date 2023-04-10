@@ -1,5 +1,9 @@
 # Group 41 - 2022 World Cup Data Analysis
 
+<h3>Final Report</h3>
+
+Our group final report can be found [here!](https://github.com/ubco-W2022T2-data301/project-group-group41/blob/main/final_report_group41.md) 
+
 
 ## Milestones
 
