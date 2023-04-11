@@ -32,6 +32,27 @@ Tony Ngo (Analysis 3)
 **Exploratory Data Analysis Highlights for Analysis 2:**<br>  
 
 
+Each team has an SPI score per match, which is a combination of each team's recent results and the overall quality of the World Cup squad. I'm curious to see how well SPI scores predict winners and true scores alone, and whether accuracy improves as more teams advance.
+
+I cleaned up the data on wc_mates.csv and grouped individual data sets by match date and team. I used the "date", "team1", "team2", "spi1", "spi2", "score1", "score2" columns as the data base for my research question. These data should be able to support my research question to compare the relationship between team, spi and score under different dates. In addition, the potential relationship can be analyzed based on the score and spi ratio of the two teams per game.
+SPI is based on goals scored and conceded, not wins, losses and draws.
+
+The collated data shows that there are 64 sets of data (matches) and the duration is 23 days. First of all, through the general analysis and comparison, as shown in figure 1 and figure 2, spi and score are positively correlated.
+<h4>Figure 1:</h4>
+
+![spi1 and score1](images/figure1_analysis2.jpg)
+
+<h4>Figure 2:</h4>
+
+![spi1 and score1](images/figure2_analysis2.jpg)
+
+ Because football matches have different schedules, I analyzed them according to group matches, round of sixteen,quarter finals,semi finals,third place match and final respectively. I calculated the average of the spi for each race, and the result is that the spi increases with each race. As shown in figure 3, the reason why the spi average values of semi finals and third place match declined is that the teams participating in these two competitions were the teams that failed in the previous competitions.
+
+<h4>Figure 3:</h4>
+
+![spi1 and score1](images/figure3_analysis2.jpg)
+
+Through EDA, I have a general arrangement of my data and a general understanding of the relationship between columns.  I have determined that my research questions mainly focus on 1) What is the relationship between SPI and Score? How effective are SPI ratings as the only predictor of match outcomes in the 2022 World Cup? 2) How will SPI change as teams advance or play subsequent tournaments?  How does this change relate to scoring?  3) How does their accuracy change over the course of the tournament as more teams advance?
 
 
 
@@ -63,10 +84,50 @@ Overall, my exploratory data analysis provides valuable insights into the World 
 
 
 
-**Analysis 2 - Ada's topic title here, have a link to your notebook**<br>  
+**Analysis 2 - Runmeng: "The relationship between SPI and Score in the 2022 World Cup"**
+#### [Feel free to check out my Jupyter Notebook!](https://github.com/ubco-W2022T2-data301/project-group-group41/blob/main/analysis/analysis2_Runmeng_Qin.ipynb)
+
+**Research Question 1: What is the relationship between SPI and Score? How effective are SPI ratings as the only predictor of match outcomes in the 2022 World Cup?**
+
+In order to better discover the highlights of the research problem, I subtracted spi values and score values of both groups, and divided "spi1-spi2" and "score1-score2" to get a ratio between them. If the ratio is positive, the team with the highest spi wins. I used heat map to rerepresent the relationship between spi and score, and the obtained result was consistent with EDA. Their relationship was positively correlated, as shown in figure 4.
+
+<h4>Figure 4:</h4>
+
+![heat map](images/heatmap_analysis2.jpg)
+
+<h4>Figure 5:</h4>
+
+![ratio](images/ratio_analysis2.jpg)
+
+**Key Findings**
+
+It can be seen from heatmap that spi has a positive correlation with the corresponding score,  and often the team with a high spi is more likely to get scores or win games.  You can see from kdeplot that teams with  high spi are more likely to win games than lose them.  spi is positively correlated with score in most competitions. After calculating the positive and negative ratio of "ratio",  it is found that the correct rate of using spi to predict the winning and losing of the match is 67.19%. It is found that the correct rate of using SPI to predict the winning and losing of the match is 67.19%.
 
 
+**Research Question 2: How will SPI change as teams advance or play subsequent tournaments? How does this change relate to scoring?**
 
+
+I use Argentina as an example because they are the only team to have won the championship, which means they have played in every tournament. As shown in figure6, spi and score changes in Argentina.
+
+<h4>Figure 6:</h4>
+
+![table](images/figure6-analysis2.jpg)
+
+**Key Findings**
+
+Take Argentina as an example. After losing the first match in the group stage,  Argentina's spi score dropped by only one point. After winning a match,  the spi score also increased by about one point and accumulated with successive wins. The correlation between increased  or decreased spi score and score is not obvious, because the change in spi is about one point regardless of win or loss.
+
+
+**Research Question 3: How does their accuracy change over the course of the tournament as more teams advance?**
+
+I intercepted each match after quarter finals to calculate whether spi was reliable as the only predicted value, and compared the accuracy of SPI in all 64 matches. The specific data is shown in figure7.
+
+<h4>Figure 7:</h4>
+
+![table2](images/figure7_analysis2.jpg)
+
+**Key Findings**
+As the game progressed, the team with the highest spi from the group stage won the game 50 percent of the time,  whereas at the group stage, the team with the highest spi won the game 69.6 percent of the time, Whereas at the group stage, the team with the highest SPI won the game 69.6 percent of the time, close to 70 percent. So, as matches go on and teams advance, spi's accuracy in predicting winning matches decreases.
 
 
 
@@ -217,7 +278,9 @@ Analysis 1:<br>
 
 Analysis 2:<br>  
 
+Through the above analysis, the relationship between SPI and score does exist. The two variables were positively correlated, and the accuracy rate was 67.19%. spi ratings are independent of whether a team wins or loses, but spi can be used to predict future scores. This indicates that spi scoring criteria are reasonable, and the factors affecting the team's win and loss are also diverse. In addition, although winning or losing is irrelevant to spi rating, when a team wins a game, its spi score will be 1-2 points higher, and if it loses a game, its spi score will be 1-2 points lower.
 
+For some non-professional fans, spi is a reliable way to predict a team's wins and losses. In other words, through the above analysis, spi's rating is objective for the team. Nowadays, artificial intelligence is involved in the development of all walks of life. I think spi is an important basis for the prediction and evaluation of artificial intelligence in football matches.
 
 Analysis 3:<br>  
 
