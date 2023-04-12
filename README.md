@@ -7,7 +7,17 @@ Our group final report can be found [here!](https://github.com/ubco-W2022T2-data
 
 ## Milestones
 
-Details for Milestone are available on Canvas (left sidebar, Course Project).
+Milestone 1: Form a team and find a dataset
+
+Milestone 2: Load your dataset, explain it, and define your research questions
+
+Milestone 3: Exploratory Data Analysis (EDA)
+
+Milestone 4: Visualizations, Analysis, and Pipeline
+
+Milestone 5: Present your Dashboard!
+
+Milestone 6: Address Feedback and Refine project
 
 ## Describe your topic/interest in about 150-200 words
 

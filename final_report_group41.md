@@ -288,7 +288,7 @@ After analyzing the data and creating visualizations in Tableau, it is clear tha
 
 Regarding the correlation between a team's SPI and their xG, there does seem to be a positive correlation between the two variables. Higher SPI teams tend to have higher xG, suggesting that a team's overall quality and skill level can impact their ability to create high-quality scoring opportunities.
 
-Overall, these findings can provide valuable insights for coaches and teams when developing their strategies and tactics. By focusing on creating high xG opportunities and improving their SPI, teams can increase their chances of winning matches and achieving success in international competitions like the World Cup.\
+Overall, these findings can provide valuable insights for coaches and teams when developing their strategies and tactics. By focusing on creating high xG opportunities and improving their SPI, teams can increase their chances of winning matches and achieving success in international competitions like the World Cup.
 
 
 
