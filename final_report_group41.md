@@ -138,13 +138,13 @@ As the game progressed, the team with the highest spi from the group stage won t
 
 To answer this question, we calculated the difference between the actual goals scored by a team and their expected goals (xG) for each match in the World Cup 2022 dataset. We then grouped the data by the result (win or loss) and calculated the average difference in goals for each group.
 
-Our analysis revealed that winning teams tend to outperform their expected goals (xG) more often than losing teams. On average, winning teams scored 0.19 more goals than their xG, while losing teams scored 0.05 less goals than their xG. This suggests that winning teams are more efficient at converting their chances into goals, while losing teams struggle to capitalize on their scoring opportunities.
+My analysis revealed that winning teams tend to outperform their expected goals (xG) more often than losing teams. On average, winning teams scored 0.19 more goals than their xG, while losing teams scored 0.05 less goals than their xG. This suggests that winning teams are more efficient at converting their chances into goals, while losing teams struggle to capitalize on their scoring opportunities.
 
 We also found that the correlation between xG and actual goals was stronger for winning teams than for losing teams. The correlation coefficient for winning teams was 0.62, indicating a moderate positive relationship between xG and actual goals. The correlation coefficient for losing teams was 0.44, indicating a weaker positive relationship.
 
-Overall, our analysis suggests that there is a difference in the relationship between xG and actual goals for winning and losing teams. Winning teams tend to be more efficient at converting their chances into goals, while losing teams struggle to capitalize on their scoring opportunities.
+Overall, my analysis suggests that there is a difference in the relationship between xG and actual goals for winning and losing teams. Winning teams tend to be more efficient at converting their chances into goals, while losing teams struggle to capitalize on their scoring opportunities.
 
-Analyzing xG vs actual goals for winning and losing teams: We can plot the relationship between xG and actual goals scored for winning and losing teams separately to see if there are any noticeable differences. We can use a scatter plot with xG on the x-axis and actual goals scored on the y-axis. We can color-code the points based on whether the team won or lost.<br>  
+Analyzing xG vs actual goals for winning and losing teams: We can plot the relationship between xG and actual goals scored for winning and losing teams separately to see if there are any noticeable differences. We can use a scatter plot with xG on the x-axis and actual goals scored on the y-axis. We can color-code the points based on whether the team won or lost. This is performed and displayed below as shown in Figure 1.<br>  
 
 
 
@@ -155,7 +155,7 @@ Analyzing xG vs actual goals for winning and losing teams: We can plot the relat
 
 
 
-From the histograms, we can see that winning teams tend to have a higher concentration of xG around 1-2, while losing teams have a wider spread of xG values. Additionally, winning teams tend to have a higher concentration of actual goals scored around 1-3, while losing teams have a wider spread of goals scored.
+Now we take a look at another visualization below in Figure 2. From the histograms, we can see that winning teams tend to have a higher concentration of xG around 1-2, while losing teams have a wider spread of xG values. Additionally, winning teams tend to have a higher concentration of actual goals scored around 1-3, while losing teams have a wider spread of goals scored.
 
 We can also look at the distribution of xG and actual goals scored across all matches in the dataset. We can use boxplots to compare the distributions and see if there are any outliers or significant differences between winning and losing teams.<br>  
 
@@ -171,9 +171,9 @@ We can also look at the distribution of xG and actual goals scored across all ma
 
 
 
-Four boxplots in a 2x2 grid produced here, with xG and actual goals scored for both home and away winning teams. The x-axis will show the xG or goals scored, and the y-axis will show the winning team. The boxes represent the interquartile range, the horizontal line inside each box represents the median, and the whiskers represent the range of the data. The color of the boxplot indicates the winning team, with blue for home and red for away.
+We now refer to Figure 3 below to finish my data analysis for my first question. Four boxplots in a 2x2 grid produced here, with xG and actual goals scored for both home and away winning teams. The x-axis will show the xG or goals scored, and the y-axis will show the winning team. The boxes represent the interquartile range, the horizontal line inside each box represents the median, and the whiskers represent the range of the data. The color of the boxplot indicates the winning team, with blue for home and red for away.
 
-The boxplots confirm our earlier findings that winning teams tend to outperform their xG more often than losing teams. For both home and away teams, the median xG and actual goals scored are higher for winning teams than for losing teams. The boxplots also show that there is greater variability in the distribution of xG and actual goals scored for losing teams than for winning teams, as indicated by the wider boxes and longer whiskers. This suggests that losing teams are more prone to inconsistent performance and are less able to consistently convert their chances into goals.<br>  
+The boxplots confirm my earlier findings that winning teams tend to outperform their xG more often than losing teams. For both home and away teams, the median xG and actual goals scored are higher for winning teams than for losing teams. The boxplots also show that there is greater variability in the distribution of xG and actual goals scored for losing teams than for winning teams, as indicated by the wider boxes and longer whiskers. This suggests that losing teams are more prone to inconsistent performance and are less able to consistently convert their chances into goals.<br>  
 
 
 
@@ -186,15 +186,15 @@ The boxplots confirm our earlier findings that winning teams tend to outperform 
 
 **Key Findings**
 
-Based on our analysis, it is clear that there is a notable difference between the relationship between xG and actual goals for winning and losing teams. Our findings suggest that winning teams tend to outperform their expected goals (xG) more often than losing teams, indicating that they are more efficient at converting their chances into goals. This could be attributed to a variety of factors, including superior finishing ability, more effective team coordination, and greater tactical acumen.
+Based on my analysis, it is clear that there is a notable difference between the relationship between xG and actual goals for winning and losing teams. My findings suggest that winning teams tend to outperform their expected goals (xG) more often than losing teams, indicating that they are more efficient at converting their chances into goals. This could be attributed to a variety of factors, including superior finishing ability, more effective team coordination, and greater tactical acumen.
 
-On the other hand, losing teams tend to struggle to capitalize on their scoring opportunities and are often unable to convert their expected goals into actual goals. This could be due to a range of factors, such as poor finishing, ineffective team coordination, or tactical weaknesses. It is worth noting, however, that our analysis did reveal a positive correlation between xG and actual goals for both winning and losing teams, indicating that xG is a useful metric for predicting goal-scoring performance, regardless of the final outcome of the match.
+On the other hand, losing teams tend to struggle to capitalize on their scoring opportunities and are often unable to convert their expected goals into actual goals. This could be due to a range of factors, such as poor finishing, ineffective team coordination, or tactical weaknesses. It is worth noting, however, that my analysis did reveal a positive correlation between xG and actual goals for both winning and losing teams, indicating that xG is a useful metric for predicting goal-scoring performance, regardless of the final outcome of the match.
 
-To gain a deeper understanding of the relationship between xG and actual goals for winning and losing teams, we plotted xG against actual goals scored for each group separately. Our scatter plot reveals that winning teams tend to score more goals than their xG, particularly in matches where they score a high number of goals. This suggests that winning teams are able to create high-quality scoring opportunities and finish them with a high degree of accuracy, resulting in more goals than expected.
+To gain a deeper understanding of the relationship between xG and actual goals for winning and losing teams, we plotted xG against actual goals scored for each group separately. My scatter plot reveals that winning teams tend to score more goals than their xG, particularly in matches where they score a high number of goals. This suggests that winning teams are able to create high-quality scoring opportunities and finish them with a high degree of accuracy, resulting in more goals than expected.
 
 On the other hand, losing teams tend to score fewer goals than their xG, particularly in matches where they have a low xG. This suggests that losing teams struggle to create high-quality scoring opportunities or have difficulty finishing the chances they do create. It is also worth noting that the scatter plot for losing teams shows a wider spread of data points, indicating that there is greater variability in the relationship between xG and actual goals for this group.
 
-Overall, our analysis provides valuable insights into the relationship between xG and actual goals for winning and losing teams in the World Cup 2022 dataset. By identifying the differences between these two groups, we can gain a better understanding of the factors that contribute to goal-scoring performance and develop more effective strategies for improving it.
+Overall, my analysis provides valuable insights into the relationship between xG and actual goals for winning and losing teams in the World Cup 2022 dataset. By identifying the differences between these two groups, we can gain a better understanding of the factors that contribute to goal-scoring performance and develop more effective strategies for improving it.
 
 **Research Question 2: Is there a correlation between a team's SPI (Soccer Power Index) and their xG?**
 
@@ -206,7 +206,7 @@ We will then clean and preprocess the data, which will involve tasks such as rem
 
 Next, we will calculate the correlation coefficient between SPI and xG to quantify the strength of the relationship between the two variables. We will also create binned scatterplots to explore whether the correlation differs across different ranges of SPI values.
 
-Finally, we will draw conclusions from our analysis and discuss any limitations or further directions for research. Overall, our approach will involve a combination of data cleaning, visualization, and statistical analysis to answer the research question about the relationship between SPI and xG.
+Finally, we will draw conclusions from my analysis and discuss any limitations or further directions for research. Overall, my approach will involve a combination of data cleaning, visualization, and statistical analysis to answer the research question about the relationship between SPI and xG.
 
 Analyzing the correlation between a team's SPI and their xG: We can use a scatter plot to visualize the relationship between a team's SPI and their xG. We can use the jointplot function from Seaborn to create a scatter plot with a linear regression line and a distribution plot for each variable.<br>  
 
