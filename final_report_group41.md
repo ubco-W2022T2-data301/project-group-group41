@@ -23,7 +23,22 @@ Tony Ngo (Analysis 3)
 
  
 **Exploratory Data Analysis Highlights for Analysis 1:**<br>  
+There were 32 teams attending the 2022 World Cup. 
+Very few teams had a defensive rating above 0.8 (range of 0 - 1.4),  while most teams had an offensive rating around 1.5 to 2.25 (range of 1.25 - 3.25), which suggests that teams focused more on trying to score goals than defending their own post
 
+Figure 1 - Offense and defense of teams
+![figure1](/images/analysis1_figure1.png)
+
+---
+The general trend between the soccer power index (a metric used to track a team’s overall strength) and offensive rating of a team increases.
+On the other hand, as the soccer power index (SPI) increases, the defensive rating of a team decreases. Additionally, the top teams with the highest chances of winning the entire tournament were Brazil, Spain and France.
+
+There is no clear visible trend for the soccer power index between home teams and away teams. 
+The projected scores and probability to tie between home teams and away teams are nearly identical to each other.
+
+The projected score increases due to a higher offensive and SPI rating, since these two metrics contribute to scoring goals.
+
+In general, home teams had a higher projected score (predictions before the match was played) than the away teams, with the probability of winning a match being higher for home teams.
 
 
 
@@ -76,13 +91,52 @@ Overall, my exploratory data analysis provides valuable insights into the World 
 ---
 <h2>Group Analysis Topics</h2>
 
-**Analysis 1 - Luis' topic title here, have a link to your notebook**<br>  
+**Analysis 1 - Luis: The fluctuations of the offensive rating of team's in the knockout stage and beyond**<br>  
 
+**Researh Question: How will the offensive rating change and affect matches depending on how far a team reaches?**
 
+You can find [the full analysis notebook here, with the code and datasets](https://github.com/ubco-W2022T2-data301/project-group-group41/blob/main/analysis/analysis1_Luis_Wen.ipynb)
 
+### Data pipeline
 
+To answer my research question, I had to repurpose the raw datasets to reflect the circumstances of my research question. I dropped the columns date, league_id, league, prob1, prob2, proj_score1, proj_score2, because these metrics were not relevant in answering the research question I made. Furthermore, I renamed team1, and team2 to home team1, and away team2 respectively, intentionally adding 1 and 2 to the column names to be able to distinguish which metric belongs to which team (either home or away, 1 or 2 in this case). 
 
+Secondly, I extracted the offensive rating of both teams and calcualted the difference in offense between the home and away teams. Additionally, I also added a couple more columns to make it easier to visualize the data. Such as when a match was player, round of 16, quarter final, semi-final, third-place decider, and final. 
 
+Lastly, I added one last column that I deemed as helpful and relevant. The winner of each match, with only two options available, either the home team, or the away team. 
+### Key findings
+
+To start with my research question, I sought out to determine the general trend of the offensive rating for both teams regardless of round or stage. 
+
+Figure 2 - Change in offensive rating
+![figure2](/images/analysis1_figure2.png)
+
+The general trend of offensive rating for the away team decreases meanwhile, the tendency of offensive rating for the home team increases. This can be attributed to several factors including who wins a match, which team won the match, and the amount of rounds or stages the winning team plays. After some deliberation, I made another similar plot taking into consideration these factors and how they might affect the general trend of the team's offensive rating.
+
+Figure 3 - Offensive ratings between home and away teams
+![figure3](/images/analysis1_figure3.png)
+
+For the round of 16, the general tendency in Figure 2 is still present, with the home team's offensive rating slowly rising and the away team's offensive rating decreasing.
+However, for the quarter-finals, the offensive rating of both teams increases slightly with one exception (for the away team), and the general trend here is increasing for both teams.
+On the contrary, for the semi-finals, the trend goes back to before, where the offensive rating of the home teams slightly rises, meanwhile the offensive rating of the away teams declines.
+Lastly, for the third-place decider and final, I could not determine the general tendency of team's offensive rating because they were the last matches played. Some details to note is that in the third-place decider, the away team had the second lowest offensive rating of the teams that qualified for the knockout stage. On the other hand, the two finalists, Argentina and France, had similar offensive ratings, well above many teams.
+
+To look into the tendency of offensive rating for the top four teams, I made separate plots for each team. 
+
+Figure 4 - Argentina & France
+![figure4](/images/analysis1_figure4.png)
+
+Figure 5 - Morocco & Croatia
+![figure5](/images/analysis1_figure5.png)
+
+Before diving deeper, I had to determine when each team was the home team and away team, as they affect the trend of offensive rating.
+
+In Figure 4, Argentina was mostly the home team, except during the quarter-final against Netherlands. France was alternating between being the home team and being the away team (home, away, home, away) from the round of 16 to the final round. I could now clearly determine that Argentina's offensive rating only increased in the knockout stage, as they went on to eventually win it all. As for France, the general trend of offensive rating was slightly increasing, only declining after losing in the final against Argentina.
+
+In Figure 5, Morocco started the knockout stage as the home team, and became the away team after the quarter-final (in the semi-final and third-place decider). As for Croatia, they alternated between being the away team and being the home team (away, home, away, home) from the round of 16 to the third-place decider. The tendency of offensive rating for Morocco is slighly increasing since they won 2 and lost 2 matches in the knockout stage. One thing to note is that after losing the third-place decider, the offensive rating is not adjusted because the tournament ends there for them. 
+As for Croatia, the general trend of offensive rating is also slightly increasing, simply because they won 3 matches in total and only lost in the semi-final to Argentina. 
+
+---
 
 **Analysis 2 - Runmeng: "The relationship between SPI and Score in the 2022 World Cup"**
 #### [Feel free to check out my Jupyter Notebook!](https://github.com/ubco-W2022T2-data301/project-group-group41/blob/main/analysis/analysis2_Runmeng_Qin.ipynb)
@@ -274,6 +328,7 @@ Source: https://projects.fivethirtyeight.com/2022-world-cup-predictions/
 
 **Analysis 1:**<br>  
 
+One factor that impacts offensive rating is being the home or away team, as generally the home team won majority of the games they played (81% win rate for the home teams). But we can also conclude logically that no team's offense will fall off as the graph implies. This is because the line shown is the average of all the offensive ratings (of the teams in the knockout stage). While we can deduce how we a team's offense might vary depending on external and internal factors, it simply does not tell the whole story of the team in question. Furthermore, most players on these teams are incredibly good players, and if you combine good players together, you can make a great team. The most important quality of a team's offense is that players should be willing to sacrifice individual performance for group success, just like Argentina and France, the finalists.
 
 
 **Analysis 2:**<br>  
