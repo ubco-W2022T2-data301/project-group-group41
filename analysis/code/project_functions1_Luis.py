@@ -4,7 +4,7 @@ import numpy as np
 # Method chain 1
 
 def load_and_process_matches(url_or_path_to_csv_file):
-    df1 = ( pd.read_csv(url_or_path_to_csv_file).dropna(axis=0).rename(columns         {'team1':'home_team1','team2':'away_team2'}).loc[48:63]
+    df1 = ( pd.read_csv(url_or_path_to_csv_file).dropna(axis=0).rename(columns=         {'team1':'home_team1','team2':'away_team2'}).loc[48:63]
         )
     
     team1_offense = [2.54424,2.5762,2.80437,2.65733,2.04074,3.17048,1.80298,2.89158,2.17124,2.52711,1.79236,2.71564,2.69895,2.89548,2.20264,2.8361]
